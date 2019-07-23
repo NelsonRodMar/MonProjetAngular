@@ -12,6 +12,21 @@ export class AppComponent {
   appareilTwo = 'Frigo';
   appareilThree = 'Ordinateur';
 
+  appareils = [
+    {
+      name: 'Machine à laver',
+      statut: 'éteint'
+    },
+    {
+      name: 'Frigo',
+      statut: 'allumé'
+    },
+    {
+      name: 'Ordinateur',
+      statut: 'éteint'
+    }
+  ];
+
   constructor() {
     setTimeout(
       () => {
