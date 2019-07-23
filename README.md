@@ -1,6 +1,7 @@
 # MonProjetAngular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2.
+This project was created to follow the course [Développez des applications Web avec Angular](https://openclassrooms.com/fr/courses/4668271-developpez-des-applications-web-avec-angular) on the website OpenClassRooms.
+And is on version  version 8.1.2.
 
 ## Development server
 
