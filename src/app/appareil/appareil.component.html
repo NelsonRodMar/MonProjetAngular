@@ -5,13 +5,13 @@
   <input type="text" class="form-control" [(ngModel)]="appareilName">
 
   <button class="btn btn-sm bg-danger"
-  *ngIf="appareilStatut === 'éteint'"
-  (click)="onSwitch()">
+          *ngIf="appareilStatut === 'éteint'"
+          (click)="onSwitch()">
     Allumer
   </button>
   <button class="btn btn-sm bg-success"
-  *ngIf="appareilStatut === 'allumé'"
-  (click)="onSwitch()">
+          *ngIf="appareilStatut === 'allumé'"
+          (click)="onSwitch()">
     Éteindre
   </button>
 </li>
