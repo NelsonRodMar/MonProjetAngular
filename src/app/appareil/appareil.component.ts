@@ -8,6 +8,7 @@ import {AppareilService} from '../services/appareil.service';
 })
 export class AppareilComponent implements OnInit {
 
+  @Input() id: number;
   @Input() index: number;
   @Input() appareilName: string;
   @Input() appareilStatut: string;
