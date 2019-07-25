@@ -54,4 +54,17 @@ export class AppareilService {
     );
     return appareil;
   }
+
+  addAppareil(name: string, statut: string) {
+    const appareilObject = {
+      id: 0,
+      name: '',
+      statut: '',
+    };
+    appareilObject.name = name;
+    appareilObject.statut = statut;
+    appareilObject.id = this.appareils[(this.appareils.length - 1)].id + 1;
+    this.appareils.push(appareilObject);
+    this.emitAppareilSubject();
+  }
 }
